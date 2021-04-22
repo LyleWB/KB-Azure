@@ -1,7 +1,7 @@
 #SCALE UP SIZE
 ##Kingston Burrowes Variables
 $resourceGroup = "WVD"
-$vmName = "KB-WVD-HPv4-0.ad.kingstonaccountants.co.uk"
+$vmName = "KB-WVD-HPv4-0"
 
 ##Re-Size VM to B2ms
 $vm = Get-AzVM -ResourceGroupName $resourceGroup -VMName $vmName
