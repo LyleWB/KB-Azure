@@ -1,7 +1,7 @@
 #SCALE DOWN SIZE
 ##Kingston Burrowes Variables
 $resourceGroup = "WVD"
-$vmName = "KB-WVD-HPv4-0"
+$vmName = "KB-WVD-HPv4-1"
 
 ##Re-Size VM to B2ms
 $vm = Get-AzVM -ResourceGroupName $resourceGroup -VMName $vmName
